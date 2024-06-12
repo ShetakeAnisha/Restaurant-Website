@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading{
+    font-family:
+}
+.logo{
+    background-image: url(logo.png);
+    height:50px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+
+}
+.hero-img{
+    background-image: url(hero_image.png);
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-left:200px;
+    margin-top: 50px;
+}
+.section_frist{
+    display: flex;
+    align-content: space-between;
+    
+}
+.information{
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.offer{
+    height:25px;
+    width: 250px;
+    background-color: rgb(9, 212, 9);
+    text-align: center;
+    border-radius: 3px;
+    
+}
+.quote{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family:'Franklin Gothic Medium';
+}
+.quote2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.button{
+    margin-top: 30px;
+    height:30px;
+    width: 100px;
+    background-color:rgb(233, 79, 14) ;
+    border-radius: 8px;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: rgb(233, 199, 10);
+}
+.about{
+    display: flex;
+    margin-left:800px;
+    margin-top:0px;
+
+}
+.image{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px
+    
+}
+.box{
+    height:100px;
+    width: 400;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.img1{
+    background-image: url(voucher.jpg);
+    }
+.img2{
+    background-image: url(basket2.jpg);
+}
+.img3{
+    background-image: url(home.png);
+}
+.about2{
+display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px 0;
+  align-items: center;
+}
+.Button2{
+    background-color:rgb(20, 160, 20);
+    height:40px;
+    width: 100px;
+    border-radius: 5px;
+}
+.Menu{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+}
+.grid{
+display:grid;
+gap: 20px;
+grid-template-areas:
+ "I1 I1 I2 I3"
+ "I1 I1 I2 I7"
+ "I4 I5 I6 I7";
+}
+.grid-image{
+    border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.grid-image:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.Img1{
+    grid-area:I1;
+}
+.Img2{
+    grid-area:I2;
+}
+.Img3{
+    grid-area:I3;
+}
+.Img4{
+    grid-area:I4;
+}
+.Img5{
+    grid-area:I5;
+}
+.Img6{
+    grid-area:I6;
+}
+.Img7{
+    grid-area:I7;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(249, 191, 121);
+    height: 250px;
+}
+.logo2{
+    background-image: url(logo.png);
+    height: 100px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+ul a{
+    display: block;
+}
+
+.about3{
+    display: flex;
+    margin-top:50px;
+    margin-left: 300px;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: space-evenly;
+}
+.box{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.Box1{
+    margin-right:100px;
+}
+.Box2{
+    margin-right: 100px;
+}
+h4{
+    margin-bottom: 15px;
+    font-size:20px;
+}
+a{
+    font-size:15px;
+    line-height:30px;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    border-radius:5px;
+}
+.social-media{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.icons{
+    font-size: 25px;
+    margin-top: 10px;
+    padding-right: 40px;
+}
